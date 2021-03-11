@@ -1,0 +1,61 @@
+Table	3
+Satellite1	-105.0,SES11
+Version	13
+Model	XR-3     
+Serial#	1710712
+Software	 1.66
+Module Type	VSAT-ACM
+Module SN	1708699
+Module Ver	 1.13
+Field Guide	North American
+FG Version	 2.63
+LNB Service	Generic C Band
+LNB System	H/V Sngl Pol LN
+LNB Model	LO=5.15 3.4-4.2
+Region	NE Continent US
+Switch	None
+Location	AR
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	02/12/2021
+Time	11:23:52
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+DnLink	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Margin	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	DnLink	C/N	IRD	Eb/No	Es/No	Margin	Lock	Polar	ID	SigType	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-105.0	Tr A8A1	-52.9	1442.476	3707.524	.	.	.	.	0.0	0	2	0	1	0.000	Auto	3334	0.0	Under	0
+-105.0	Tr 5	-35.3	1350.056	3799.944	12.9	97	.	14.2	.	1	2	0	4	-0.058	8-5/6	30000	0.0	Under	0
+-105.0	Tr 7	-34.0	1310.000	3840.000	13.3	98	.	14.6	.	1	2	0	4	0.051	8-5/6	30000	0.0	Under	0
+-105.0	Tr 9	-33.6	1270.000	3880.000	12.9	97	.	14.2	.	1	2	0	4	0.050	8-5/6	30000	0.0	Under	0
+-105.0	Tr 11	-33.7	1230.000	3920.000	14.3	100	.	15.6	.	1	2	0	4	0.049	8-5/6	30000	0.0	Under	0
+-105.0	Tr 13	-34.1	1190.000	3960.000	14.3	100	.	15.6	.	1	2	0	4	0.048	8-5/6	30000	0.0	Under	0
+-105.0	Tr 15	-34.5	1150.000	4000.000	13.5	99	.	14.8	.	1	2	0	4	0.046	8-5/6	30000	0.0	Under	0
+-105.0	Tr 17	-41.8	1120.492	4029.508	11.7	95	.	13.0	.	1	2	1	1	0.551	3/4	9260	0.0	Under	0
+-105.0	Tr B7C1	-41.8	1106.992	4043.008	13.4	98	.	14.7	.	1	2	1	1	0.051	3/4	10128	0.0	Under	0
+-105.0	Tr 19	-35.8	1070.000	4080.000	13.8	99	.	15.1	.	1	2	0	4	0.044	8-5/6	30000	0.0	Under	0
+-105.0	Tr 21	-43.4	1040.500	4109.500	11.7	95	.	13.0	.	1	2	1	1	0.050	3/4	7136	0.0	Under	0
+-105.0	Tr A8E1	-47.1	1028.476	4121.524	12.5	96	.	13.3	.	1	2	0	4	0.073	Q-3/4	2400	0.0	Under	0
+-105.0	Tr H9D1	-45.7	1024.316	4125.684	10.0	86	.	11.3	.	1	2	0	1	0.052	3/4	2894	0.0	Under	0
+-105.0	Tr B7F1	-45.2	1017.500	4132.500	9.3	82	.	10.6	.	1	2	0	1	0.041	3/4	5000	0.0	Under	0

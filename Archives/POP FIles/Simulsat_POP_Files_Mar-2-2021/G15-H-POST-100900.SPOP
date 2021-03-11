@@ -1,0 +1,57 @@
+Table	3
+Satellite1	-133.0,G15
+Version	12
+Model	XR-3     
+Serial#	1708542
+Software	 1.64
+Module Type	Turbo-S2
+Module SN	1708405
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.61
+LNB Service	Generic C Band
+LNB System	H/V Dual Pol LN
+LNB Model	C-Band LNBF 13/
+Region	SW Continent US
+Switch	None
+Location	
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	12/21/2020
+Time	13:38:23
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+DnLink	Int	4	3
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	C/N	IRD	Eb/No	Es/No	Lock	Polar	ID	SigType	DnLink	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-133.0	Tr 2	-60.9	1410.052	.	.	.	.	0	2	0	4	3739.948	0.000	Auto	31250	0.0	Under	0
+-133.0	Tr 4	-60.6	1369.948	.	.	.	.	0	2	1	4	3780.052	0.000	Auto	31250	0.0	Under	0
+-133.0	Tr 5	-64.5	1359.952	.	.	.	.	0	1	1	1	3790.048	0.000	Auto	11936	0.0	Under	0
+-133.0	Tr H2A1	-63.3	1342.060	.	.	.	.	0	1	1	4	3807.940	0.000	Auto	16303	0.0	Under	0
+-133.0	Tr 10	-47.5	1249.936	.	.	.	.	0	2	0	4	3900.064	0.000	Auto	31250	0.0	Under	0
+-133.0	Tr 15	-42.9	1149.944	16.8	100	14.8	18.1	1	1	0	4	4000.056	0.009	8-5/6	30000	0.0	Under	0
+-133.0	Tr 16	-39.8	1130.016	.	.	.	.	0	2	1	1	4019.984	0.000	Auto	29270	0.0	Under	0
+-133.0	Tr 17	-46.4	1124.676	15.5	100	15.6	16.8	1	1	0	2	4025.324	-0.014	3/4	4878	0.0	Under	0
+-133.0	Tr G3A1	-44.2	1105.488	15.5	100	13.5	16.8	1	1	0	4	4044.512	-0.033	8-5/6	22500	0.0	Under	0
+-133.0	Tr 19	-41.4	1069.956	17.0	100	15.0	18.3	1	1	0	4	4080.044	0.004	8-5/6	30000	0.0	Under	0
+-133.0	Tr 21	-47.7	1029.956	.	.	.	.	0	1	0	4	4120.044	0.000	Auto	31250	0.0	Under	0

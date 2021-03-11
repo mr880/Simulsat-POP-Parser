@@ -1,0 +1,71 @@
+Table	3
+Satellite1	-101.0,SES1
+Version	12
+Model	XR-3     
+Serial#	1708542
+Software	 1.64
+Module Type	Turbo-S2
+Module SN	1708405
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.61
+LNB Service	Generic C Band
+LNB System	H/V Dual Pol LN
+LNB Model	C-Band LNBF 13/
+Region	SW Continent US
+Switch	None
+Location	
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	01/18/2021
+Time	14:49:26
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+DnLink	Int	4	3
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	C/N	IRD	Eb/No	Es/No	Lock	Polar	ID	SigType	DnLink	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-101.0	Tr D9B1	-53.9	1446.004	.	.	.	.	0	2	0	1	3703.996	0.000	Auto	2734	0.0	Under	0
+-101.0	Tr D9C1	-53.5	1442.008	.	.	.	.	0	2	0	1	3707.992	0.000	Auto	2734	0.0	Under	0
+-101.0	Tr I5A1	-37.5	1433.960	.	.	.	.	0	2	1	4	3716.040	0.000	Auto	4775	0.0	Under	0
+-101.0	Tr D6A1	-35.6	1425.004	.	.	.	.	0	2	1	1	3724.996	0.000	Auto	10000	0.0	Under	0
+-101.0	Tr H9A1	-38.7	1417.008	.	.	.	.	0	2	0	1	3732.992	0.000	Auto	2734	0.0	Under	0
+-101.0	Tr D9D1	-38.8	1416.976	.	.	.	.	0	2	0	1	3733.024	0.000	Auto	2734	0.0	Under	0
+-101.0	Tr H9E1	-34.6	1409.972	12.3	92	10.3	13.6	1	1	0	4	3740.028	-0.023	8-5/6	32727	0.0	Under	0
+-101.0	Tr D9E1	-39.2	1401.976	.	.	.	.	0	2	0	1	3748.024	0.000	Auto	2734	0.0	Under	0
+-101.0	Tr D9F1	-40.1	1385.308	.	.	.	.	0	2	0	1	3764.692	0.000	Auto	2734	0.0	Under	0
+-101.0	Tr 3	-37.6	1377.164	.	.	.	.	0	2	0	1	3772.836	0.000	Auto	4444	0.0	Under	0
+-101.0	Tr 4	-35.8	1369.972	11.7	89	9.7	13.0	1	1	0	4	3780.028	-0.014	8-5/6	30000	0.0	Under	0
+-101.0	Tr 6	-34.1	1330.040	12.7	95	10.7	14.0	1	1	1	4	3819.960	-0.089	8-5/6	29724	0.0	Under	0
+-101.0	Tr 7	-32.6	1310.000	.	.	.	.	0	2	0	4	3840.000	0.000	Auto	30000	0.0	Under	0
+-101.0	Tr 9	-34.4	1270.000	.	.	.	.	0	2	0	4	3880.000	0.000	Auto	30000	0.0	Under	0
+-101.0	Tr 10	-33.5	1250.000	15.6	100	13.6	16.9	1	1	0	4	3900.000	-0.054	8-5/6	30000	0.0	Under	0
+-101.0	Tr 11	-39.1	1230.000	.	.	.	.	0	2	0	4	3920.000	0.000	Auto	30000	0.0	Under	0
+-101.0	Tr 12	-39.3	1210.000	.	.	.	.	0	1	0	2	3940.000	0.000	Auto	29270	0.0	Under	0
+-101.0	Tr 14	-33.7	1170.000	14.3	98	12.3	15.6	1	1	0	4	3980.000	-0.041	8-5/6	30000	0.0	Under	0
+-101.0	Tr 17A	-43.2	1120.000	.	.	.	.	0	2	0	1	4030.000	0.000	Auto	12400	0.0	Under	0
+-101.0	Tr 17B	-34.3	1102.000	.	.	.	.	0	2	0	4	4048.000	0.000	Auto	15800	0.0	Under	0
+-101.0	Tr 18	-31.8	1090.000	9.2	74	9.3	10.5	1	1	0	2	4060.000	-0.052	3/4	29270	0.0	Under	0
+-101.0	Tr 19	-36.3	1070.000	.	.	.	.	0	2	0	4	4080.000	0.000	Auto	30000	0.0	Under	0
+-101.0	Tr 20	-35.0	1050.000	10.5	82	8.5	11.8	1	1	0	4	4100.000	-0.036	8-5/6	30000	0.0	Under	0
+-101.0	Tr 22	-33.2	1010.000	9.1	73	9.2	10.4	1	1	0	1	4140.000	-0.052	3/4	29268	0.0	Under	0
+-101.0	Tr 24	-36.1	970.000	12.7	95	10.7	14.0	1	1	0	4	4180.000	-0.039	8-5/6	30000	0.0	Under	0

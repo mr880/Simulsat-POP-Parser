@@ -1,0 +1,58 @@
+Table	3
+Satellite1	-103.0,SES3
+Version	13
+Model	XR-3     
+Serial#	1710712
+Software	 1.66
+Module Type	VSAT-ACM
+Module SN	1708699
+Module Ver	 1.13
+Field Guide	North American
+FG Version	 2.63
+LNB Service	Generic C Band
+LNB System	H/V Sngl Pol LN
+LNB Model	LO=5.15 3.4-4.2
+Region	NE Continent US
+Switch	None
+Location	MO
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	02/09/2021
+Time	14:34:33
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+DnLink	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Margin	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	DnLink	C/N	IRD	Eb/No	Es/No	Margin	Lock	Polar	ID	SigType	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-103.0	Tr 1	-55.4	1429.968	3720.032	8.3	76	.	9.6	.	1	1	0	4	0.116	8-5/6	30000	0.0	Under	0
+-103.0	Tr 3	-41.1	1389.960	3760.040	10.3	88	.	11.6	.	1	1	0	4	0.142	8-3/4	29999	0.0	Under	0
+-103.0	Tr 7	-39.8	1310.000	3840.000	11.3	94	.	12.6	.	1	1	0	4	0.092	8-2/3	30000	0.0	Under	0
+-103.0	Tr I5A1	-51.7	1225.844	3924.156	11.3	94	.	12.6	.	1	1	0	4	0.074	Q-5/6	2734	0.0	Under	0
+-103.0	Tr H9C1	-55.2	1221.820	3928.180	.	.	.	.	0.0	0	1	0	4	0.000	Auto	3507	0.0	Under	0
+-103.0	Tr 13	-40.3	1190.000	3960.000	10.3	88	.	11.6	.	1	1	0	4	0.081	8-5/6	30000	0.0	Under	0
+-103.0	Tr 15	-40.3	1150.000	4000.000	10.2	88	.	11.5	.	1	1	1	1	0.079	3/4	29270	0.0	Under	0
+-103.0	Tr 17	-39.7	1110.000	4040.000	11.3	94	.	12.6	.	1	1	0	4	0.084	8-2/3	30000	0.0	Under	0
+-103.0	Tr 19	-41.2	1070.000	4080.000	7.7	73	.	9.0	.	1	1	0	4	0.078	8-5/6	30000	0.0	Under	0
+-103.0	Tr 21	-39.8	1030.000	4120.000	9.3	82	.	10.6	.	1	1	1	4	0.076	8-3/4	30000	0.0	Under	0
+-103.0	Tr 23	-41.2	990.000	4160.000	7.8	73	.	9.1	.	1	1	1	4	0.076	8-5/6	30000	0.0	Under	0

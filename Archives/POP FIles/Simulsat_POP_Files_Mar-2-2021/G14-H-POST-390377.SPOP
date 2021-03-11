@@ -1,0 +1,58 @@
+Table	3
+Satellite1	-125.0,G14
+Version	12
+Model	XR-3     
+Serial#	1708396
+Software	 1.64
+Module Type	Turbo-S2
+Module SN	1708400
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.61
+LNB Service	Other Providers
+LNB System	SES
+LNB Model	C-Band No Filte
+Region	NE Continent US
+Switch	None
+Location	BC  .
+Technician	BRIAN
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	02/17/2021
+Time	08:27:11
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+DnLink	Int	4	3
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	C/N	IRD	Eb/No	Es/No	Lock	Polar	ID	SigType	DnLink	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-125.0	Tr 1	-31.0	1430.032	18.6	100	18.7	19.9	1	1	1	1	3719.968	-0.122	3/4	26667	17.9	Under	1
+-125.0	Tr 3	-30.4	1389.936	17.4	100	17.5	18.7	1	1	1	1	3760.064	-0.025	3/4	19886	17.9	Under	1
+-125.0	Tr 5	-52.5	1359.972	.	.	.	.	0	1	0	4	3790.028	0.000	Auto	13200	17.9	Under	1
+-125.0	Tr 7	-33.3	1309.936	16.8	100	14.8	18.1	1	1	0	4	3840.064	-0.009	8-5/6	30000	17.9	Under	1
+-125.0	Tr 9	-32.6	1269.936	16.7	100	14.7	18.0	1	1	0	4	3880.064	0.000	8-5/6	30000	17.9	Under	1
+-125.0	Tr 11	-27.4	1229.992	16.2	100	16.3	17.5	1	1	1	2	3920.008	-0.074	3/4	29264	17.9	Under	1
+-125.0	Tr 13	-27.6	1189.924	18.1	100	18.2	19.4	1	1	0	1	3960.076	0.015	3/4	29270	17.9	Under	1
+-125.0	Tr 15	-31.7	1149.972	16.5	100	14.5	17.8	1	1	0	4	4000.028	-0.033	8-5/6	30000	17.9	Under	1
+-125.0	Tr 17	-32.1	1109.944	16.8	100	15.2	18.1	1	1	0	4	4040.056	-0.004	8-3/4	30000	17.9	Under	1
+-125.0	Tr 19	-31.6	1069.968	18.2	100	16.2	19.5	1	1	0	4	4080.032	-0.025	8-5/6	30000	17.9	Under	1
+-125.0	Tr 21	-31.5	1029.964	16.7	100	15.1	18.0	1	1	0	4	4120.036	-0.020	8-3/4	30000	17.9	Under	1
+-125.0	Tr 23	-31.3	989.964	16.8	100	15.2	18.1	1	1	0	4	4160.036	-0.018	8-3/4	30000	17.9	Under	1

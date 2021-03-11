@@ -1,0 +1,61 @@
+Table	3
+Satellite1	-91.0,G17
+Version	13
+Model	XR-3     
+Serial#	1708576
+Software	 1.66
+Module Type	Turbo-S2
+Module SN	1708417
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.63
+LNB Service	Generic C Band
+LNB System	H/V Sngl Pol LN
+LNB Model	LO=5.15 3.4-4.2
+Region	NE Continent US
+Switch	None
+Location	
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	02/11/2021
+Time	09:25:34
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+DnLink	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Margin	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	DnLink	C/N	IRD	Eb/No	Es/No	Margin	Lock	Polar	ID	SigType	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-91.0	Tr 2	-34.5	1409.948	3740.052	14.6	100	12.0	15.4	7.5	1	2	0	4	-0.028	8-3/4	31250	17.8	Under	1
+-91.0	Tr 4	-32.5	1369.916	3780.084	13.8	99	13.9	15.1	.	1	2	0	2	-0.015	3/4	29270	17.8	Under	1
+-91.0	Tr 8	-38.2	1289.932	3860.068	12.1	95	9.7	13.1	5.2	1	2	0	4	0.003	8-3/4	31248	17.8	Under	1
+-91.0	Tr 12A	-46.6	1224.996	3925.004	14.2	99	12.2	15.2	8.6	1	2	0	4	-0.055	8-2/3	4250	17.8	Under	1
+-91.0	Tr D6A1	-47.5	1219.556	3930.444	10.5	89	10.4	11.8	4.9	1	2	0	1	-0.050	3/4	3255	17.8	Under	1
+-91.0	Tr 12B	-48.6	1215.588	3934.412	11.6	96	10.8	12.9	4.4	1	2	0	1	-0.037	7/8	2478	17.8	Under	1
+-91.0	Tr 12C	-45.2	1203.004	3946.996	13.3	97	10.3	14.1	4.8	1	2	0	4	-0.058	8-5/6	18333	17.8	Under	1
+-91.0	Tr 14	-52.0	1184.464	3965.536	10.3	86	7.8	11.3	3.4	1	2	0	4	-0.022	8-3/4	5600	17.8	Under	1
+-91.0	Tr 16C	-43.7	1130.000	4020.000	11.9	95	9.3	12.7	4.8	1	2	0	4	-0.056	8-3/4	31250	17.8	Under	1
+-91.0	Tr 18A	-49.1	1083.964	4066.036	12.3	96	9.4	13.3	4.0	1	2	0	4	-0.013	8-5/6	6052	17.8	Under	1
+-91.0	Tr 18B	-48.1	1073.932	4076.068	12.0	96	11.9	13.3	6.4	1	2	1	1	-0.015	3/4	3000	17.8	Under	1
+-91.0	Tr 20	-44.7	1049.952	4100.048	11.2	91	8.2	12.0	2.7	1	2	0	4	-0.002	8-5/6	30000	17.8	Under	1
+-91.0	Tr 22	-39.5	1009.960	4140.040	13.1	97	10.7	14.1	6.2	1	2	0	4	-0.012	8-3/4	31250	17.8	Under	1
+-91.0	Tr 24C	-37.3	970.000	4180.000	14.5	100	11.5	15.3	6.0	1	2	0	4	-0.042	8-5/6	30016	17.8	Under	1

@@ -1,0 +1,60 @@
+Table	3
+Satellite1	-105.0,SES11
+Version	12
+Model	XR-3     
+Serial#	1708548
+Software	 1.64
+Module Type	Turbo-S2
+Module SN	1708426
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.61
+LNB Service	Other Providers
+LNB System	SES
+LNB Model	C-Band No Filte
+Region	NE Continent US
+Switch	None
+Location	
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	01/20/2021
+Time	11:53:14
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+DnLink	Int	4	3
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	C/N	IRD	Eb/No	Es/No	Lock	Polar	ID	SigType	DnLink	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-105.0	Tr A8A1	-29.4	1442.476	21.2	100	21.8	22.5	1	2	0	1	3707.524	-0.089	2/3	3334	17.9	250	1
+-105.0	Tr 5	-26.6	1350.056	16.9	100	14.9	18.2	1	2	0	4	3799.944	-0.150	8-5/6	30000	17.9	250	1
+-105.0	Tr 7	-25.6	1310.000	17.4	100	15.4	18.7	1	2	0	4	3840.000	-0.086	8-5/6	30000	17.9	250	1
+-105.0	Tr 9	-23.5	1270.000	17.2	100	15.2	18.5	1	2	0	4	3880.000	-0.080	8-5/6	30000	17.9	250	1
+-105.0	Tr 11	-26.9	1230.000	18.4	100	16.4	19.7	1	2	0	4	3920.000	-0.095	8-5/6	30000	17.9	250	1
+-105.0	Tr 15	-28.3	1150.000	17.8	100	15.8	19.1	1	2	0	4	4000.000	-0.082	8-5/6	30000	17.9	250	1
+-105.0	Tr B7B1	-29.7	1120.492	17.3	100	17.4	18.6	1	2	1	1	4029.508	0.411	3/4	9260	17.8	250	1
+-105.0	Tr B7C1	-30.1	1106.992	16.8	100	16.9	18.1	1	2	1	1	4043.008	-0.087	3/4	10128	17.8	250	1
+-105.0	Tr 19	-25.0	1070.000	17.0	100	15.0	18.3	1	2	0	4	4080.000	-0.076	8-5/6	30000	17.9	250	1
+-105.0	Tr B7E1	-26.5	1040.500	18.0	100	18.1	19.3	1	2	1	1	4109.500	-0.089	3/4	7136	17.8	250	1
+-105.0	Tr A8E1	-38.9	1028.476	15.1	99	15.2	16.4	1	2	0	4	4121.524	-0.051	Q-3/4	2400	17.9	250	1
+-105.0	Tr H9D1	-31.6	1024.316	16.6	100	16.7	17.9	1	2	0	1	4125.684	-0.065	3/4	2894	17.8	250	1
+-105.0	Tr B7F1	-30.0	1017.500	15.1	99	15.2	16.4	1	2	0	1	4132.500	-0.089	3/4	5000	17.8	250	1
+-105.0	Tr 23	-25.4	990.000	.	.	.	.	0	2	0	4	4160.000	0.000	Auto	30000	17.9	250	1

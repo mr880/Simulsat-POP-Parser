@@ -1,0 +1,53 @@
+Table	3
+Satellite1	-105.0,SES11
+Version	13
+Model	XR-3     
+Serial#	1708391
+Software	 1.66
+Module Type	Turbo-S2
+Module SN	1708349
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.63
+LNB Service	Other Providers
+LNB System	SES
+LNB Model	5G Filter
+Region	NE Continent US
+Switch	None
+Location	
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	01/29/2021
+Time	14:16:16
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+DnLink	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Margin	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	DnLink	C/N	IRD	Eb/No	Es/No	Margin	Lock	Polar	ID	SigType	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-105.0	Tr 14	-31.1	1170.000	3980.000	13.4	97	10.4	14.2	4.9	1	1	0	4	-1.351	8-5/6	30000	17.8	Under	1
+-105.0	Tr 16	-30.6	1130.000	4020.000	12.5	96	9.5	13.3	4.0	1	1	1	4	-1.355	8-5/6	30000	17.8	Under	1
+-105.0	Tr 18	-28.1	1090.000	4060.000	13.7	98	10.6	14.5	5.2	1	1	1	4	-1.350	8-5/6	30000	17.8	Under	1
+-105.0	Tr 20	-26.4	1050.000	4100.000	12.4	95	9.4	13.2	3.9	1	1	1	4	-1.344	8-5/6	30000	17.8	Under	1
+-105.0	Tr 22	-27.2	1010.000	4140.000	14.2	99	11.1	15.0	5.7	1	1	0	4	-1.351	8-5/6	30000	17.8	Under	1
+-105.0	Tr 24	-44.1	970.000	4180.000	.	.	.	.	5.7	0	1	0	2	0.000	Auto	19510	17.8	Under	1

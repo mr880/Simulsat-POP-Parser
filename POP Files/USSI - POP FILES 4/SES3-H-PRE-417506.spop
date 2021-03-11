@@ -1,0 +1,59 @@
+Table	3
+Satellite1	-103.0,SES3
+Version	13
+Model	XR-3     
+Serial#	1708566
+Software	 1.66
+Module Type	Turbo-S2
+Module SN	1708427
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.63
+LNB Service	Other Providers
+LNB System	SES
+LNB Model	AR Filter
+Region	NE Continent US
+Switch	None
+Location	
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+LevelLimit	-50.0
+FreqLimit	3000
+Result	LOW
+Date	02/04/2021
+Time	10:47:53
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+DnLink	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Margin	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+Grade	Enum	1	4	0=Fail,1=Good,2=Low,3=.,
+MinLim	Int	2	0
+AvgLim	Int	2	0
+Band	Int	1	0
+Column	Int	1	0
+
+Orbit	Tran	Level	Freq	DnLink	C/N	IRD	Eb/No	Es/No	Margin	Lock	Polar	ID	SigType	FreqErr	CodRate	Baud	LnbV	LnbI	LNB	Grade	MinLim	AvgLim	Band	Column
+-103.0	Tr 17	-26.7	1110.000	4040.000	13.1	97	10.9	13.9	7.3	1	1	0	4	-0.056	8-2/3	30000	17.8	205	1	1	86	91	0	0
+-103.0	Tr 19	-27.3	1070.000	4080.000	10.7	88	7.6	11.5	2.2	1	1	0	4	-0.056	8-5/6	30000	17.8	205	1	2	111	116	0	1
+-103.0	Tr 21	-26.2	1030.000	4120.000	12.5	96	9.8	13.3	5.4	1	1	1	4	-0.061	8-3/4	30000	17.9	205	1	1	96	101	0	2
+-103.0	Tr 23	-26.6	990.000	        4160.000	11.5	92	8.4	12.3	3.0	1	1	1	4	-0.050	8-5/6	30000	17.8	205	1	1	111	116	0	3

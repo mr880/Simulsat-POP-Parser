@@ -1,0 +1,63 @@
+Table	3
+Satellite1	-97.0,G-19
+Version	12
+Model	XR-3     
+Serial#	1708396
+Software	 1.64
+Module Type	Turbo-S2
+Module SN	1708400
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.61
+LNB Service	Galaxy Broadban
+LNB System	C Band Linear H
+LNB Model	Norsat3030x_CEx
+Region	NE Continent US
+Switch	None
+Location	BEND
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	12/04/2020
+Time	02:35:34
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+DnLink	Int	4	3
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	C/N	IRD	Eb/No	Es/No	Lock	Polar	ID	SigType	DnLink	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-97.0	Tr I5B1	-39.2	1389.964	.	.	.	.	0	2	0	4	3760.036	0.000	Auto	31458	0.0	Under	0
+-97.0	Tr G7B1	-49.5	1341.108	.	.	.	.	0	1	0	4	3808.892	0.000	Auto	10890	0.0	Under	0
+-97.0	Tr I5D1	-41.6	1302.492	11.2	86	11.3	12.5	1	2	1	1	3847.508	-0.071	3/4	2200	0.0	Under	0
+-97.0	Tr H9B1	-43.9	1297.472	14.3	98	12.3	15.6	1	2	0	4	3852.528	-0.036	8-5/6	2500	0.0	Under	0
+-97.0	Tr C4C1	-38.8	1293.960	15.8	101	15.3	17.1	1	2	1	1	3856.040	-0.038	7/8	2941	0.0	Under	0
+-97.0	Tr 9	-31.3	1269.936	15.3	100	13.3	16.6	1	2	0	4	3880.064	0.005	8-5/6	30000	0.0	Under	0
+-97.0	Tr G7E1	-38.5	1237.236	.	.	.	.	0	1	0	4	3912.764	0.000	Auto	8400	0.0	Under	0
+-97.0	Tr G7I1	-45.8	1228.048	.	.	.	.	0	2	0	4	3921.952	0.000	Auto	2980	0.0	Under	0
+-97.0	Tr 12C	-34.3	1209.992	.	.	.	.	0	1	0	4	3940.008	0.000	Auto	30000	0.0	Under	0
+-97.0	Tr H9C1	-37.8	1197.972	13.4	96	12.3	14.7	1	2	0	4	3952.028	-0.034	8-2/3	16001	0.0	Under	0
+-97.0	Tr J7A1	-45.6	1180.228	.	.	.	.	0	1	0	4	3969.772	0.000	Auto	12994	0.0	Under	0
+-97.0	Tr C6H1	-41.5	1165.700	17.1	100	15.5	18.4	1	2	0	4	3984.300	-0.049	8-3/4	3600	0.0	Under	0
+-97.0	Tr H9F1	-43.2	1158.092	.	.	.	.	0	1	0	4	3991.908	0.000	Auto	9683	0.0	Under	0
+-97.0	Tr 19	-29.1	1069.976	14.5	98	12.5	15.8	1	2	0	4	4080.024	-0.025	8-5/6	30000	0.0	Under	0
+-97.0	Tr 21	-32.4	1029.960	16.4	100	14.4	17.7	1	2	0	4	4120.040	-0.011	8-5/6	29999	0.0	Under	0
+-97.0	Tr H9H1	-34.2	1021.252	.	.	.	.	0	1	0	4	4128.748	0.000	Auto	3500	0.0	Under	0
+-97.0	Tr H9L1	-49.9	994.252	.	.	.	.	0	1	0	4	4155.748	0.000	Auto	3500	0.0	Under	0

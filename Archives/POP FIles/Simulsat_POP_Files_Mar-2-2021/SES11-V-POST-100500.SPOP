@@ -1,0 +1,60 @@
+Table	3
+Satellite1	-105.0,SES11
+Version	12
+Model	XR-3     
+Serial#	1708576
+Software	 1.64
+Module Type	Turbo-S2
+Module SN	1708417
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.61
+LNB Service	Generic C Band
+LNB System	H/V Sngl Pol LN
+LNB Model	LO=5.15 3.4-4.2
+Region	NE Continent US
+Switch	None
+Location	
+Technician	
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	01/18/2021
+Time	11:18:53
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+DnLink	Int	4	3
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	C/N	IRD	Eb/No	Es/No	Lock	Polar	ID	SigType	DnLink	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-105.0	Tr A8A1	-58.3	1442.476	19.7	100	20.3	21.0	1	2	0	1	3707.524	-0.059	2/3	3334	0.0	Under	0
+-105.0	Tr 5	-53.1	1350.056	15.6	100	13.6	16.9	1	2	0	4	3799.944	-0.117	8-5/6	30000	0.0	Under	0
+-105.0	Tr 7	-52.1	1310.000	15.7	100	13.7	17.0	1	2	0	4	3840.000	-0.052	8-5/6	30000	0.0	Under	0
+-105.0	Tr 9	-53.1	1270.000	15.2	99	13.2	16.5	1	2	0	4	3880.000	-0.059	8-5/6	30000	0.0	Under	0
+-105.0	Tr 11	-51.8	1230.000	16.6	100	14.6	17.9	1	2	0	4	3920.000	-0.060	8-5/6	30000	0.0	Under	0
+-105.0	Tr 15	-51.7	1150.000	15.8	101	13.8	17.1	1	2	0	4	4000.000	-0.058	8-5/6	30000	0.0	Under	0
+-105.0	Tr B7B1	-55.4	1120.492	13.4	96	13.5	14.7	1	2	1	1	4029.508	0.436	3/4	9260	0.0	Under	0
+-105.0	Tr B7C1	-57.5	1106.992	14.1	97	14.2	15.4	1	2	1	1	4043.008	-0.062	3/4	10128	0.0	Under	0
+-105.0	Tr 19	-52.4	1070.000	14.7	98	12.7	16.0	1	2	0	4	4080.000	-0.044	8-5/6	30000	0.0	Under	0
+-105.0	Tr B7E1	-55.6	1040.500	14.4	98	14.5	15.7	1	2	1	1	4109.500	-0.065	3/4	7136	0.0	Under	0
+-105.0	Tr A8E1	-67.4	1028.476	12.1	91	12.2	13.4	1	2	0	4	4121.524	-0.026	Q-3/4	2400	0.0	Under	0
+-105.0	Tr H9D1	-60.7	1024.316	12.7	95	12.8	14.0	1	2	0	1	4125.684	-0.042	3/4	2894	0.0	Under	0
+-105.0	Tr B7F1	-59.4	1017.500	11.6	88	11.7	12.9	1	2	0	1	4132.500	-0.065	3/4	5000	0.0	Under	0
+-105.0	Tr 23	-54.5	990.000	.	.	.	.	0	2	0	4	4160.000	0.000	Auto	30000	0.0	Under	0

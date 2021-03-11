@@ -1,0 +1,59 @@
+Table	3
+Satellite1	-103.0,SES3
+Version	12
+Model	XR-3     
+Serial#	1708396
+Software	 1.64
+Module Type	Turbo-S2
+Module SN	1708400
+Module Ver	 1.46
+Field Guide	North American
+FG Version	 2.61
+LNB Service	Other Providers
+LNB System	SES
+LNB Model	C-Band No Filte
+Region	NE Continent US
+Switch	None
+Location	BC  .
+Technician	BRIAN
+Notes	
+Level	dBm
+nBands	0
+nLnbs	1
+Date	02/16/2021
+Time	14:41:01
+Column	Type	Length	Places
+Orbit	Int	2	1
+Tran	Char	8	0
+Level	Level	2	1
+Freq	Int	4	3
+C/N	Int	2	1
+IRD	Int	2	0
+Eb/No	Int	2	1
+Es/No	Int	2	1
+Lock	Enum	1	2	0=Unlock,1=LOCK,
+Polar	Enum	1	7	0=X,1=H,2=V,3=L,4=R,5=B,6=C,
+ID	Enum	1	2	0=.,1=ID,
+SigType	Enum	1	10	0=DSS,1=DVB-S,2=DC2,3=Turbo,4=DVB-S2,5=T-ACM,6=DTVS2,7=DTVS2B,8=Other,9=S2-ACM,
+DnLink	Int	4	3
+FreqErr	Int	2	3
+CodRate	Char	8	0
+Baud	Uint	2	0
+LnbV	Int	2	1
+LnbI	Int	2	0
+LNB	Int	1	0
+
+Orbit	Tran	Level	Freq	C/N	IRD	Eb/No	Es/No	Lock	Polar	ID	SigType	DnLink	FreqErr	CodRate	Baud	LnbV	LnbI	LNB
+-103.0	Tr 1	-41.4	1429.968	13.9	97	11.9	15.2	1	1	0	4	3720.032	-0.046	8-5/6	30000	17.8	Under	1
+-103.0	Tr 3	-40.7	1389.960	13.6	96	12.0	14.9	1	1	0	4	3760.040	-0.039	8-3/4	29999	17.8	Under	1
+-103.0	Tr 5	-36.8	1349.920	13.7	96	13.2	15.0	1	1	0	2	3800.080	0.015	7/8	29270	17.8	Under	1
+-103.0	Tr 7	-39.8	1310.000	14.9	99	13.8	16.2	1	1	0	4	3840.000	-0.068	8-2/3	30000	17.8	Under	1
+-103.0	Tr 11	-51.8	1232.000	.	.	.	.	0	1	0	4	3918.000	0.000	Auto	3506	17.8	Under	1
+-103.0	Tr I5A1	-50.4	1225.844	13.4	96	13.1	14.7	1	1	1	4	3924.156	-0.061	Q-5/6	2734	17.8	Under	1
+-103.0	Tr H9C1	-56.7	1221.820	.	.	.	.	0	1	0	4	3928.180	0.000	Auto	3507	17.8	Under	1
+-103.0	Tr 13	-39.5	1190.000	14.3	98	12.3	15.6	1	1	0	4	3960.000	-0.055	8-5/6	30000	17.8	Under	1
+-103.0	Tr 15	-35.9	1150.000	14.6	98	14.7	15.9	1	1	1	1	4000.000	-0.082	3/4	29270	17.8	Under	1
+-103.0	Tr 17	-38.6	1110.000	14.6	98	13.5	15.9	1	1	0	4	4040.000	-0.055	8-2/3	30000	17.8	Under	1
+-103.0	Tr 21	-38.6	1030.000	12.8	95	11.2	14.1	1	1	0	4	4120.000	-0.065	8-3/4	30000	17.8	Under	1
+-103.0	Tr 23	-39.9	990.000	12.7	95	10.7	14.0	1	1	0	4	4160.000	-0.057	8-5/6	30000	17.8	Under	1
+-103.0	Tr H9D1	-39.9	989.968	12.7	95	10.7	14.0	1	1	0	4	4160.032	-0.023	8-5/6	30000	17.8	Under	1

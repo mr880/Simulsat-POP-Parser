@@ -1,0 +1,50 @@
+Table	3																			
+Note	5G Filter Limit Table																			
+MinLevel	-500																			
+FreqError	3000																			
+QualUnits	EsNo																			
+Column	Type	Length	Places																	
+Orbit	Int	2	1																	
+Sat	Char	8	0																	
+XPR	Char	8	0																	
+LBand	Int	2	0																	
+DnLink	Int	2	0																	
+Type	Char	8	0																	
+Mod	Char	8	0																	
+Code	Char	8	0																	
+Symbol	Uint	2	3																	
+MinLim	Int	2	1																	
+AvgLim	Int	2	1																	
+Polar	Enum	1	7	"0=X,1=H,2=V,3=L,4=R,5=B,6=C,"																
+																				
+Orbit	Sat	XPR	LBand	DnLink	Type	Mod	Code	Symbol	MinLim	AvgLim	Polar									
+-103	SES-3	Tr 16	1130	4020	DVB-S2	8PSK	R3/4	30	9.4	9.9	V									
+-103	SES-3	Tr 22	1010	4140	DVB-S2	8PSK	R5/6	30	10.9	11.4	V									
+-103	SES-3	Tr 24	970	4180	DVB-S2	8PSK	R5/6	30	10.9	11.4	V									
+-103	SES-3	Tr 17	1110	4040	DVB-S2	8PSK	R2/3	30	8.4	8.9	H									
+-103	SES-3	Tr 19	1070	4080	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-103	SES-3	Tr 21	1030	4120	DVB-S2	8PSK	R3/4	30	9.4	9.9	H									
+-103	SES-3	Tr 23	990	4160	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-101	SES-1	Tr 17A	1120	4030	DVB-S	QPSK	R7/8	12.4	10	10.5	V									
+-101	SES-1	Tr 17B	1102	4048	DVB-S2	8PSK	R5/6	15.8	10.9	11.4	V									
+-101	SES-1	Tr 19	1070	4080	DVB-S2	8PSK	R5/6	30	10.9	11.4	V									
+-101	SES-1	Tr 18	1090	4060	DG-II	QPSK	R3/4	29.27	8.4	8.9	H									
+-101	SES-1	Tr 20	1050	4100	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-101	SES-1	Tr 22	1010	4140	DVB-S	QPSK	R3/4	29.268	8.4	8.9	H									
+-101	SES-1	Tr 24	970	4180	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-105	SES-11	Tr 17	1121	4029	DVB-S	QPSK	R3/4	9.26	8.4	8.9	V									
+-105	SES-11	Tr 19	1070	4080	DVB-S2	8PSK	R5/6	30	10.9	11.4	V									
+-105	SES-11	Tr 21	1040.7	4109.3	DVB-S	QPSK	R3/4	7.136	8.4	8.9	V									
+-105	SES-11	Tr 16	1130	4020	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-105	SES-11	Tr 18	1090	4060	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-105	SES-11	Tr 20	1050	4100	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-105	SES-11	Tr 22	1010	4140	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-131	AMC-11	Tr 16	1130	4020	DVB-S2	8PSK	R5/6	34.28	10.9	11.4	H									
+-131	AMC-11	Tr 18	1090	4060	DVB-S2	8PSK	R5/6	34.28	10.9	11.4	H									
+-131	AMC-11	Tr 22	1010	4140	DVB-S2	8PSK	R5/6	34.28	10.9	11.4	H									
+-131	AMC-11	Tr 24	970	4180	DVB-S2	8PSK	R5/6	30	10.9	11.4	H									
+-131	AMC-11	Tr 17	1110	4040	DVB-S2	8PSK	R5/6	34.3	10.9	11.4	V									
+-131	AMC-11	Tr 21	1030	4120	DVB-S2	8PSK	R5/6	34.3	10.9	11.4	V									
+-131	AMC-11	Tr 23	990	4160	DVB-S2	8PSK	R5/6	30	10.9	11.4	V									
+-87	SES-2	Tr 23	991.3	4158.7	DVB-S	QPSK	R3/4	4.296	8.4	8.9	H									
+-87	SES-2	Tr 23	974	4176	DVB-S	QPSK	R3/4	2.894	8.4	8.9	H									
