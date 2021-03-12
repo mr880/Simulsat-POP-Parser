@@ -1561,8 +1561,8 @@ def main():
                 worksheet.write(row_num,7, row['Sat'],cell_format)
                 worksheet.write(row_num,8, row['Polar'],cell_format)
                 worksheet.write(row_num,9, row['Tran'],cell_format)
-                worksheet.write(row_num,10, row['Post Limit Margin'],cell_format)
-                worksheet.write(row_num,11, row['Pre Limit Margin'],cell_format)
+                worksheet.write(row_num,10, row['Pre Limit Margin'],cell_format)
+                worksheet.write(row_num,11, row['Post Limit Margin'],cell_format)
 
                 if row['Limit Table'] == 'ModCod':
                     worksheet.write(row_num,12, "ModCod", cell_format)
@@ -1581,7 +1581,11 @@ def main():
                 worksheet.conditional_format(dimension, {'type': 'data_bar', 'data_bar_2010':True})
 
                 row_num += 1
-    
+        dimension = 'M1:M%s'%(str(row_num))
+        worksheet.conditional_format(dimension, {'type': 'data_bar', 'data_bar_2010':True})
+        dimension = 'L1:L%s'%(str(row_num))
+        worksheet.conditional_format(dimension, {'type': 'data_bar', 'data_bar_2010':True})
+
     dimensions = 'G1:N%s'%(str(row_num))
     worksheet.conditional_format( dimensions, { 'type' : 'no_blanks' , 'format' : border_format} )
     worksheet.conditional_format( dimensions, { 'type' : 'blanks' , 'format' : border_format} )
